@@ -1,0 +1,90 @@
+.adminlogin-main {
+    background-color: #091d3e;
+    height: 86.6vh;
+}
+.adminlogin-img {
+    background-image: url(../../../assets/heartrate.png);
+    height: 86.6vh;
+}
+.adminlogin-wrapper1 {
+    width: 100%;
+}
+.adminlogin-wrapper2 {
+    background-color: #d6e4fa;
+    height: 86.6vh;
+    padding-top: 10rem;
+}
+.adminlogin-container {
+    max-width: 25rem;
+    background: #f8f9fd;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: auto;
+}
+
+.adminlogin-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(16, 137, 211);
+}
+.adminlogin-welcome {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(16, 137, 211);
+}
+.adminlogin-form {
+    margin-top: 20px;
+}
+
+.adminlogin-form .adminlogin-input {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+}
+
+.adminlogin-form .adminlogin-input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.adminlogin-form .adminlogin-input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.adminlogin-form .adminlogin-input:focus {
+    outline: none;
+    border-inline: 2px solid #12b1d1;
+}
+
+.adminlogin-form .adminlogin-login-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 80px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.adminlogin-form .adminlogin-login-button:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.adminlogin-form .adminlogin-login-button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}

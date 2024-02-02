@@ -1,0 +1,45 @@
+.data-column{
+    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    padding: 2.5rem;
+    border-radius: 2% 2% 100% 100% / 2% 2% 10% 10%;
+    height: 20.5rem;
+    width: 24.375rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.databar-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.databar-image img{
+    height: 6rem;
+    width: auto;
+}
+.databar-title{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.databar-detail{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.data-column:hover{
+    background: rgb(0,146,255);
+    transition-duration:0.2s ;
+    color: aliceblue;
+}
+
+.databar-heading{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
