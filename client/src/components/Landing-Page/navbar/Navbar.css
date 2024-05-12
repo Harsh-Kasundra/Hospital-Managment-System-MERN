@@ -1,22 +1,27 @@
-.navbar-main{
+.navbar-main {
     display: block;
     width: 100%;
     background: rgb(255, 255, 255);
     height: 5rem;
 }
 
-.navbar-logo{
+.navbar-name {
     margin-top: 0.7rem;
     font-size: 2rem;
     font-weight: 800;
     letter-spacing: 0.2rem;
-    color: #0092FF;
+    color: #0092ff;
 }
-.navbar-logo span{
+.navbar-name span {
     color: #000000;
 }
 
-.link{
+.navbar-logo {
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.link {
     text-decoration: none;
     color: #000000;
     font-size: 1.1rem;
@@ -25,9 +30,9 @@
     overflow: hidden;
     position: relative;
 }
-.link::before{
+.link::before {
     content: "";
-    background-color: #0092FF;
+    background-color: #0092ff;
     position: absolute;
     height: 0.19rem;
     bottom: 0;
@@ -36,27 +41,26 @@
     width: 0%;
     transition: width 0.3s ease;
 }
-.link:hover::before{
+.link:hover::before {
     width: 100%;
 }
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.navbar-upper{
+.navbar-upper {
     height: 3rem;
-    background-color: #091D3E;
+    background-color: #091d3e;
 }
-.navbar-emergency{
-    color: white;
-
-}
-.navbar-location{
+.navbar-emergency {
     color: white;
 }
-.navbar-text{
+.navbar-location {
+    color: white;
+}
+.navbar-text {
     margin-top: 0.8rem;
 }
-.navbar-upper-content{
+.navbar-upper-content {
     margin-top: -0.8rem;
 }

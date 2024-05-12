@@ -1,0 +1,32 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 35,
+    "gender": "Male",
+    "contactNumber": "1234567890",
+    "email": "johndoe@example.com",
+    "address": "123 Main Street, City, Country",
+    "appointmentDate": "2024-03-05",
+    "reasonForAppointment": "Routine check-up",
+    "admitted": false,
+    "admissionDate": null,
+    "dischargeDate": null
+}
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 35,
+    "gender": "Male",
+    "contactNumber": "1234567890",
+    "email": "johndoe@example.com",
+    "address": "123 Main Street, City, Country",
+    "role": "Doctor",
+    "specialization": "Cardiology",
+    "salary": 100000,
+    "shift": "Day",
+    "department": "Cardiology",
+    "joiningDate": "2024-01-15",
+    "qualification": "MD",
+    "experience": 10
+}
+

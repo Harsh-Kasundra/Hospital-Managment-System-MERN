@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot, faClock } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
     return (
@@ -33,8 +34,8 @@ const Navbar = () => {
             </div>
             <div className="navbar-main">
                 <div className="row ms-5 me-5">
-                    <div className="col-2 d-flex justify-content-end navbar-logo align-items-center">
-                        H<span>M</span>S
+                    <div className="col-2 d-flex justify-content-end navbar-name align-items-center">
+                        <img className="navbar-logo" src={logo} alt="" />H<span>M</span>S
                     </div>
                     <div className="col d-flex gap-4 justify-content-end text-decoration-none">
                         <Link className="link" to="/">

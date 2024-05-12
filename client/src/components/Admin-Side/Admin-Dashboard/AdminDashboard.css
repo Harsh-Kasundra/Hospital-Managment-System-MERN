@@ -1,0 +1,212 @@
+.admin-dashboard-main {
+    margin-right: 50px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.admin-dashboard-first {
+    height: 3.125rem;
+    width: auto;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .first-title {
+        font-size: 35px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .first-icon {
+        font-size: 25px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    .first-icon :hover {
+        color: #3161c9;
+    }
+}
+.admin-dashboard-second {
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .second-total {
+        border-radius: 10px;
+        background-color: #eceffd;
+        height: 100%;
+        width: 430px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .total-icon {
+            border: 7px solid #1249c2;
+            border-radius: 50%;
+            padding: 22px;
+        }
+        .total-icon img {
+            height: 70px;
+            padding: 10px;
+            width: auto;
+        }
+        .total-detial {
+            .title {
+                font-size: 20px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+            .amount {
+                font-size: 30px;
+                font-weight: 600;
+                color: black;
+            }
+            .subtitle {
+                font-size: 15px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+        }
+    }
+    .second-today {
+        border-radius: 10px;
+        background-color: #eceffd;
+        height: 100%;
+        width: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .today-icon {
+            border: 7px solid #1249c2;
+            border-radius: 50%;
+            padding: 22px;
+        }
+        .today-icon img {
+            height: 70px;
+            width: auto;
+        }
+        .today-detial {
+            .title {
+                font-size: 20px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+            .amount {
+                font-size: 30px;
+                font-weight: 600;
+                color: black;
+            }
+            .subtitle {
+                font-size: 15px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+        }
+    }
+    .second-appointment {
+        border-radius: 10px;
+        background-color: #eceffd;
+        height: 100%;
+        width: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        .appointment-icon {
+            border: 7px solid #1249c2;
+            border-radius: 50%;
+            padding: 22px;
+        }
+        .appointment-icon img {
+            height: 70px;
+            width: auto;
+            padding: 10px;
+        }
+        .appointment-detial {
+            .title {
+                font-size: 20px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+            .amount {
+                font-size: 30px;
+                font-weight: 600;
+                color: black;
+            }
+            .subtitle {
+                font-size: 15px;
+                font-weight: 500;
+                color: #5e5d5d;
+            }
+        }
+    }
+}
+.admin-dashboard-third {
+    border-radius: 10px;
+    width: auto;
+    height: 425px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .third-status {
+        border-radius: 10px;
+        height: 100%;
+        width: 430px;
+    }
+    .third-appointments {
+        border-radius: 10px;
+        height: 90%;
+        width: 500px;
+        background-color: #eceffd;
+    }
+    .third-doctor-avialable {
+        border-radius: 10px 0px 0px 10px;
+        height: 90%;
+        width: 350px;
+        background-color: #eceffd;
+    }
+}
+.admin-dashboard-docTbl {
+    width: 100%;
+}
+.admin-dashboard-forth {
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .forth-appointment-req {
+        border-radius: 10px;
+        height: 100%;
+        width: 430px;
+        background-color: #eceffd;
+    }
+    .forth-calender {
+        border-radius: 10px;
+        height: 100%;
+        background-color: #f2f2f2;
+        width: 430px;
+    }
+}
+.dashboard-diagnosis {
+    font-size: 12px;
+    color: #5e5d5d;
+}
+.docimage {
+    height: 2.375rem;
+    width: 2.375rem;
+    border-radius: 50%;
+}
+.blue-toast-popup {
+    background-color: #0092ff !important;
+}
+
+.blue-toast-icon {
+    color: rgb(255, 255, 255);
+}
+
+.blue-toast-title {
+    color: rgb(255, 254, 254);
+}

@@ -1,0 +1,73 @@
+.admin-navbar-main {
+    position: fixed;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.admin-navbar-details {
+    padding-top: 1.5625rem;
+    height: 33vh;
+}
+.admin-navbar-photo {
+    border-radius: 50%;
+    background: rgb(22, 77, 196);
+    background: linear-gradient(
+        180deg,
+        rgba(22, 77, 196, 1) 0%,
+        rgba(105, 140, 222, 1) 57%,
+        rgba(200, 213, 250, 1) 100%
+    );
+    margin: auto;
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-bottom: 1.25rem;
+}
+.admin-navbar-photo img {
+    margin: auto;
+    border-radius: 50%;
+    height: 12.5rem;
+    width: auto;
+}
+.admin-navbar-name {
+    display: flex;
+    justify-content: center;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #154cc3;
+}
+.admin-navbar-edu {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #154cc3;
+    padding-bottom: 1.875rem;
+}
+.admin-navbar-divider {
+    border-bottom: 0.0625rem solid #154cc3;
+    margin: auto;
+    margin-right: 5.625rem;
+    margin-left: 5.625rem;
+}
+
+.admin-navbar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.admin-navbar-links {
+    list-style-type: none;
+}
+.admin-navbar-link li {
+    margin-left: 0.625rem;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.admin-navbar-link:hover {
+    color: #0740bf;
+}

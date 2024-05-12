@@ -1,4 +1,4 @@
-.data-column{
+.data-column {
     margin: auto;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -7,25 +7,25 @@
     border-radius: 2% 2% 100% 100% / 2% 2% 10% 10%;
     height: 20.5rem;
     width: 24.375rem;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0rem 0.625rem 2.25rem 0rem, rgba(0, 0, 0, 0.06) 0rem 0rem 0rem 0.0625rem;
 }
 
-.databar-image{
+.databar-image {
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
 }
-.databar-image img{
+.databar-image img {
     height: 6rem;
     width: auto;
 }
-.databar-title{
+.databar-title {
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
     font-weight: 700;
 }
-.databar-detail{
+.databar-detail {
     display: flex;
     justify-content: center;
     color: grey;
@@ -33,13 +33,12 @@
     margin-top: 1.5rem;
     text-align: center;
 }
-.data-column:hover{
-    background: rgb(0,146,255);
-    transition-duration:0.2s ;
-    color: aliceblue;
+.data-column:hover {
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 15px 41px 5px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.databar-heading{
+.databar-heading {
     margin-top: 8rem;
     margin-bottom: 2rem;
 }
